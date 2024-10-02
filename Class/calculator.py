@@ -1,7 +1,7 @@
-from input_handler import get_number_input, get_operator_input
-from operations import add, subtract, multiply, divide, power, square_root, modulo
-from validation import is_valid_operator
-from error_handler import handle_division_error, handle_value_error
+from Functions.input_handler import get_number_input, get_operator_input
+from Functions.operations import add, subtract, multiply, divide, power, square_root, modulo
+from Functions.validation import is_valid_operator
+from Functions.error_handler import handle_division_error, handle_value_error
 
 class Calculator:
     def __init__(self):
@@ -48,7 +48,3 @@ class Calculator:
             if input("Do you want to continue (yes/no)? ").lower() != 'yes':
                 print("Thank you for using the calculator!")
                 break
-
-if __name__ == "__main__":
-    calc = Calculator()
-    calc.run()
