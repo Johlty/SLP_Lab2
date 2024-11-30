@@ -1,7 +1,7 @@
-from Functions.input_handler import get_number_input, get_operator_input
-from Functions.operations import add, subtract, multiply, divide, power, square_root, modulo
-from Functions.validation import is_valid_operator
-from Functions.error_handler import handle_division_error, handle_value_error
+from lab2.Functions.input_handler import get_number_input, get_operator_input
+from lab2.Functions.operations import add, subtract, multiply, divide, power, square_root, modulo
+from lab2.Functions.validation import is_valid_operator
+from lab2.Functions.error_handler import handle_division_error, handle_value_error
 
 class Calculator:
     def __init__(self):
